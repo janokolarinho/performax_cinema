@@ -352,34 +352,35 @@ function obsadit(id){
         alert("obsadit");
         break;
         case "seat37":
-        database.day3.time1.kinosal.seat37 = "obsazeno";
-        alert("obsadit");
-        break;  
-        case "seat38":
-        database.day3.time1.kinosal.seat38 = "obsazeno";
-        alert("obsadit");
-        break;  
-        case "seat39":
-        database.day3.time1.kinosal.seat39 = "obsazeno";
-        alert("obsadit");
-        break;
-        case "seat40":
-        database.day3.time2.kinosal.seat40 = "obsazeno";
-        alert("obsadit");
-        break;  
-        case "seat41":
-        database.day3.time2.kinosal.seat41 = "obsazeno";
-        alert("obsadit");
-        break;  
-        case "seat42":
-        database.day3.time2.kinosal.seat42 = "obsazeno";
-        alert("obsadit");
-        break;
+        
         
 
         default: 
         alert("Jiz nelze zmenit");
-
+        
+        //database.day3.time1.kinosal.seat37 = "obsazeno";
+        //alert("obsadit");
+        //break;  
+        //case "seat38":
+        //database.day3.time1.kinosal.seat38 = "obsazeno";
+        //alert("obsadit");
+        //break;  
+        //case "seat39":
+        //database.day3.time1.kinosal.seat39 = "obsazeno";
+        //alert("obsadit");
+        //break;
+        //case "seat40":
+        //database.day3.time2.kinosal.seat40 = "obsazeno";
+        //alert("obsadit");
+        //break;  
+        //case "seat41":
+        //database.day3.time2.kinosal.seat41 = "obsazeno";
+        //alert("obsadit");
+        //break;  
+        //case "seat42":
+        //database.day3.time2.kinosal.seat42 = "obsazeno";
+        //alert("obsadit");
+        //break;
         // case "seat43":
         // database.day3.time3.kinosal.seat43 = "obsazeno";
         // alert("obsadit");
