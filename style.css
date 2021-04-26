@@ -1,0 +1,168 @@
+/* 
+Table of contents:
+
+1. Layout
+
+2. Header
+
+3. Intro
+
+4. Main-content
+
+*/
+
+/* Layout */
+
+:root {
+    --performax-red: #f55b5c;
+    --performax-grey: #7f8ea8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    max-width: 300px;
+    padding: 0px 10px;
+    margin: 0px auto;
+}
+
+@media(min-width: 768px) {
+    .wrapper {
+        max-width: 600px;
+    }
+}
+
+@media(min-width:980px) {
+    .wrapper {
+        max-width: 960px;
+    }
+}
+
+/* Header */
+
+#header {
+    height: 70px;
+    background: var(--performax-red);
+}
+
+#header h1 {
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+@media(min-width: 768px){
+    #header h1 {
+        font-size: 32px;
+    }
+}
+
+/* Intro */
+
+#intro {
+    margin-top: 50px;
+}
+
+#intro p {
+    font-size: 14px;
+    max-width: 250px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 15px;
+    border: 3px solid;
+    border-color: var(--performax-red);
+    border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+    #intro p {
+        max-width: 500px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 980px) {
+    #intro p {
+        max-width: 700px;
+        font-size: 20px;
+    }
+}
+
+/* Main-content */
+
+#main-content {
+    margin-top: 45px;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+
+    .days-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+h2 {
+    margin-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--performax-red);
+}
+
+h2#first-t {
+    margin-top: 0px;
+}
+
+h3 {
+    margin: 10px 0px;
+    color: #7f8ea8;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    background: white;
+    border: 1px solid var(--performax-red);
+    border-radius: 5px;
+    color: var(--performax-red);
+    margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+    button {
+        display: block;
+    }
+}
+
+button:hover {
+    background: var(--performax-red);
+    color: white;
+}
+
+/* Footer */
+
+#footer {
+    margin-top: 40px;
+    height: 30px;
+    background: var(--performax-red);
+}
+
+#footer span {
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+}
+
+
+
