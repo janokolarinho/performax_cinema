@@ -122,6 +122,12 @@ h2#first-t {
     margin-top: 0px;
 }
 
+@media(min-width: 768px) {
+    h2#first-t {
+    margin-top: 15px;
+}
+}
+
 h3 {
     margin: 10px 0px;
     color: #7f8ea8;
